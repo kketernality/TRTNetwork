@@ -36,7 +36,11 @@ The test data and model should be prepared using the scripts provided in Caffe. 
 
 ### Classification_01
 
+<<<<<<< HEAD
 This code is derived and rewritten from Caffe's cpp-classification [example](https://github.com/BVLC/caffe/tree/master/examples/cpp_classification). The example is executed using:
+=======
+This code is derived and rewritten from Caffe's cpp-classification [example](https://github.com/BVLC/caffe/tree/master/examples/cpp_classification). The terminal output should be identical with Caffe's example.
+>>>>>>> 7eeb8840a9f93aaf1c5a0979fbbdb2f62c8c8305
 
 ```bash
 ./scripts/run_01.sh
