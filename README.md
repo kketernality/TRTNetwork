@@ -36,7 +36,7 @@ Besides, the test data and model should be prepared using the scripts provided i
 
 ### Classification_01
 
-This code is derived and rewritten from Caffe's cpp-classification [example][https://github.com/BVLC/caffe/tree/master/examples/cpp_classification]. The terminal output should be identical with Caffe's example.
+This code is derived and rewritten from Caffe's cpp-classification [example](https://github.com/BVLC/caffe/tree/master/examples/cpp_classification). The terminal output should be identical with Caffe's example.
 
 ```bash
 ./scripts/run_01.sh
@@ -44,8 +44,13 @@ This code is derived and rewritten from Caffe's cpp-classification [example][htt
 
 ### Classification_02
 
-The minimal example. The code corresponds to Caffe's ipython notebook [example][https://github.com/BVLC/caffe/blob/master/examples/00-classification.ipynb].
+The minimal example. The code corresponds to Caffe's ipython notebook [example](https://github.com/BVLC/caffe/blob/master/examples/00-classification.ipynb).
 
 ```bash
 ./scripts/run_02.sh
 ```
+## Todo
+
+Supporting PReLU layer in C++ directly by either plugin layer or layer transformation, which transform the PReLU layer into combination of ReLU, scale and sum layer.
+
+Other TensorRT components such as PluginFactory, Profiler, ....
