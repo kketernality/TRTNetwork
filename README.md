@@ -20,13 +20,15 @@ TensorRT wrapper API is detailedly documented in the header files.
 
 ## Build
 
+The build of this repo relies on CMake. Execute the script:
+
 ```bash
 ./scripts/make.sh
 ```
 
 ## Run Examples
 
-The examples in this repo require an environmental variable `CAFFE_ROOT` pointing to the Caffe repo path, because the examples use the model and test data included in Caffe to ensure the correctness of this Tensor wrapper API.
+The examples in this repo require an environmental variable `CAFFE_ROOT` pointing to the Caffe repo path, because the examples use the model and test data included in Caffe to ensure the correctness of this TensorRT wrapper API.
 
 ```bash
 export CAFFE_ROOT=${CAFFE_REPO_PATH}
@@ -36,11 +38,7 @@ The test data and model should be prepared using the scripts provided in Caffe. 
 
 ### Classification_01
 
-<<<<<<< HEAD
 This code is derived and rewritten from Caffe's cpp-classification [example](https://github.com/BVLC/caffe/tree/master/examples/cpp_classification). The example is executed using:
-=======
-This code is derived and rewritten from Caffe's cpp-classification [example](https://github.com/BVLC/caffe/tree/master/examples/cpp_classification). The terminal output should be identical with Caffe's example.
->>>>>>> 7eeb8840a9f93aaf1c5a0979fbbdb2f62c8c8305
 
 ```bash
 ./scripts/run_01.sh
