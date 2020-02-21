@@ -4,7 +4,7 @@ TensorRT C++ wrapper for Caffe-based neural network.
 
 ## Usage
 
-This C++ wrapper is designed with simplicity in mind. A neural network instance can be easily created within a few lines of code.
+This C++ wrapper is designed with simplicity in mind. A neural network instance can be easily created within a few lines of code. The inference operation of the network uses a dictionary-style argument which resembles the python API of the Tensorflow 1.0. 
 
 ```cpp
 #include "TRTNetwork/TRTNetwork.hpp"
