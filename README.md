@@ -4,7 +4,7 @@ TensorRT C++ wrapper for Caffe-based neural network.
 
 ## Usage
 
-This C++ wrapper is designed with simplicity in mind. A neural network instance can be easily created within a few lines of code. The inference operation of the network uses a dictionary-style argument which resembles the python API of the Tensorflow 1.0. 
+This C++ wrapper is designed with simplicity in mind. A neural network instance can be easily created within a few lines of code. The inference operation of the network uses a dictionary-style argument which resembles the python API of the Tensorflow 1.0.
 
 ```cpp
 #include "TRTNetwork/TRTNetwork.hpp"
@@ -46,7 +46,7 @@ This code is derived and rewritten from Caffe's cpp-classification [example](htt
 
 The terminal output should be identical with Caffe's example.
 
-```bash
+```
 ---------- Prediction for examples/images/cat.jpg ----------
 0.3134 - "n02123045 tabby, tabby cat"
 0.2380 - "n02123159 tiger cat"
@@ -63,7 +63,7 @@ The minimal example. It uses the same model and test data as the previous exampl
 ./scripts/run_02.sh
 ```
 The output should look like:
-```bash
+```
 [I][02/21|22:39:15] Predicted score: 0.313388 index: 281 label: n02123045 tabby, tabby cat
 ```
 
